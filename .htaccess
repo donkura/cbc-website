@@ -1,18 +1,26 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  # Ensure LiteSpeed and proxy caches do not store HTML responses
+  RewriteCond %{REQUEST_URI} \.(html|htm)$ [NC,OR]
+  RewriteCond %{REQUEST_URI} ^/$ [NC]
+  RewriteRule .* - [E=Cache-Control:no-cache]
+</IfModule>
+
 <IfModule mod_headers.c>
-  # Prevent browser caching of HTML files so updates display immediately
-  <FilesMatch "\.(html|htm)$">
-    Header set Cache-Control "no-cache, no-store, must-revalidate"
-    Header set Pragma "no-cache"
-    Header set Expires 0
+  # Aggressive cache-busting for HTML & dynamic documents so clients always see the latest edits
+  <FilesMatch "\.(html|htm|txt|json)$">
+    Header always set Cache-Control "no-cache, no-store, must-revalidate, max-age=0"
+    Header always set Pragma "no-cache"
+    Header always set Expires "0"
   </FilesMatch>
   
-  # Cache static media assets
-  <FilesMatch "\.(jpg|jpeg|png|gif|svg|mp4|webm|woff|woff2)$">
+  # Static media asset caching (images, fonts, videos)
+  <FilesMatch "\.(jpg|jpeg|png|gif|svg|webp|mp4|webm|woff|woff2)$">
     Header set Cache-Control "max-age=604800, public"
   </FilesMatch>
 </IfModule>
 
 <IfModule LiteSpeed>
-  # Instruct Hostinger LiteSpeed server to bypass HTML cache
+  # Disable LiteSpeed server-side page caching for fresh HTML updates
   CacheLookup off
 </IfModule>
