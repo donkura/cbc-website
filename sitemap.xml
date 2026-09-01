@@ -1,45 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>https://cbc.ug</loc>
-<lastmod>2026-04-23T06:56:29.936Z</lastmod>
-<changefreq>weekly</changefreq>
-<priority>1</priority>
-</url>
-<url>
-<loc>https://cbc.ug/episodes</loc>
-<lastmod>2026-04-23T06:56:29.936Z</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://cbc.ug/cbc-life-conference-2026</loc>
-<lastmod>2026-04-23T06:56:29.936Z</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://cbc.ug/youth-leaders-union-2025</loc>
-<lastmod>2026-04-23T06:56:29.936Z</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://cbc.ug/team</loc>
-<lastmod>2026-04-23T06:56:29.936Z</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://cbc.ug/partner</loc>
-<lastmod>2026-04-23T06:56:29.936Z</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://cbc.ug/contact</loc>
-<lastmod>2026-04-23T06:56:29.936Z</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.8</priority>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://cbc.ug/</loc>
+    <lastmod>2026-09-01T12:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://cbc.ug/og-image.jpg</image:loc>
+      <image:title>CBC – Chloe B's Covert | Africa's Premier Conversation Platform</image:title>
+      <image:caption>Chloe Basiima hosting CBC Conversations in Kampala, Uganda</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cbc.ug/Chloe.jpeg</image:loc>
+      <image:title>Chloe Basiima — Founder &amp; Host of CBC</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cbc.ug/CBC-26.jpg</image:loc>
+      <image:title>CBC Studio Conversations</image:title>
+    </image:image>
+  </url>
+
+  <!-- Episodes Page -->
+  <url>
+    <loc>https://cbc.ug/episodes</loc>
+    <lastmod>2026-09-01T12:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://cbc.ug/og-image.jpg</image:loc>
+      <image:title>CBC Featured Episodes and Video Podcasts</image:title>
+    </image:image>
+  </url>
+
+  <!-- CBC Life Conference 2026 -->
+  <url>
+    <loc>https://cbc.ug/cbc-life-conference-2026</loc>
+    <lastmod>2026-09-01T12:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://cbc.ug/CBC%20LIFE%20CONFERENCE%202026/WhatsApp%20Image%202026-04-22%20at%2019.10.30.jpeg</image:loc>
+      <image:title>CBC Life Conference 2026 Official Poster — Career, Business and Faith</image:title>
+      <image:caption>Annual leadership conference hosted by Chloe Basiima in Kampala</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Youth Leaders Union 2025 -->
+  <url>
+    <loc>https://cbc.ug/youth-leaders-union-2025</loc>
+    <lastmod>2026-09-01T12:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cbc.ug/og-image.jpg</image:loc>
+      <image:title>CBC Youth Leaders Union Mentorship Initiative</image:title>
+    </image:image>
+  </url>
+
+  <!-- Team Directory -->
+  <url>
+    <loc>https://cbc.ug/team</loc>
+    <lastmod>2026-09-01T12:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Chloe Basiima Profile -->
+  <url>
+    <loc>https://cbc.ug/team/chloe-basiima</loc>
+    <lastmod>2026-09-01T12:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cbc.ug/Chloe.jpeg</image:loc>
+      <image:title>Chloe Basiima — Founder &amp; Host</image:title>
+      <image:caption>Chloe Basiima, Founder &amp; Host of CBC – Chloe B's Covert</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Muyuga Edwin Profile -->
+  <url>
+    <loc>https://cbc.ug/team/muyuga-edwin</loc>
+    <lastmod>2026-09-01T12:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://cbc.ug/Edwin.jpeg</image:loc>
+      <image:title>Muyuga Edwin — CBC Team</image:title>
+    </image:image>
+  </url>
+
+  <!-- Nakanwagi Rosemary Profile -->
+  <url>
+    <loc>https://cbc.ug/team/nakanwagi-rosemary</loc>
+    <lastmod>2026-09-01T12:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://cbc.ug/Rosemary.jpeg</image:loc>
+      <image:title>Nakanwagi Rosemary — CBC Team</image:title>
+    </image:image>
+  </url>
+
+  <!-- Namirembe Sandra Profile -->
+  <url>
+    <loc>https://cbc.ug/team/namirembe-sandra</loc>
+    <lastmod>2026-09-01T12:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://cbc.ug/Sandra.PNG</image:loc>
+      <image:title>Namirembe Sandra — CBC Team</image:title>
+    </image:image>
+  </url>
+
+  <!-- Uwimbabazi Gloria Profile -->
+  <url>
+    <loc>https://cbc.ug/team/uwimbabazi-gloria</loc>
+    <lastmod>2026-09-01T12:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://cbc.ug/Gloria.jpeg</image:loc>
+      <image:title>Uwimbabazi Gloria — CBC Team</image:title>
+    </image:image>
+  </url>
+
+  <!-- Partner With Us -->
+  <url>
+    <loc>https://cbc.ug/partner</loc>
+    <lastmod>2026-09-01T12:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Contact Us -->
+  <url>
+    <loc>https://cbc.ug/contact</loc>
+    <lastmod>2026-09-01T12:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
