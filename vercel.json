@@ -1,0 +1,12 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/cbc-life-conference-2026.html", "destination": "/cbc-life-conference-2026", "permanent": true },
+    { "source": "/youth-leaders-union-2025.html", "destination": "/youth-leaders-union-2025", "permanent": true },
+    { "source": "/episodes.html", "destination": "/episodes", "permanent": true },
+    { "source": "/contact.html", "destination": "/contact", "permanent": true },
+    { "source": "/partner.html", "destination": "/partner", "permanent": true },
+    { "source": "/team.html", "destination": "/team", "permanent": true }
+  ]
+}

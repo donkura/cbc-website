@@ -1,0 +1,12 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/cbc-life-conference-2026", "destination": "/cbc-life-conference-2026.html" },
+    { "source": "/youth-leaders-union-2025", "destination": "/youth-leaders-union-2025.html" },
+    { "source": "/episodes", "destination": "/episodes.html" },
+    { "source": "/contact", "destination": "/contact.html" },
+    { "source": "/partner", "destination": "/partner.html" },
+    { "source": "/team", "destination": "/team.html" }
+  ]
+}

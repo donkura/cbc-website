@@ -1,0 +1,15 @@
+# Redirect explicit .html requests to clean URLs
+/cbc-life-conference-2026.html  /cbc-life-conference-2026  301
+/youth-leaders-union-2025.html  /youth-leaders-union-2025  301
+/episodes.html                 /episodes                 301
+/contact.html                  /contact                  301
+/partner.html                  /partner                  301
+/team.html                     /team                     301
+
+# Serve clean URLs
+/cbc-life-conference-2026  /cbc-life-conference-2026.html  200
+/youth-leaders-union-2025  /youth-leaders-union-2025.html  200
+/episodes                 /episodes.html                 200
+/contact                  /contact.html                  200
+/partner                  /partner.html                  200
+/team                     /team.html                     200

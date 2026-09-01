@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://cbc.ug
+Sitemap: https://cbc.ug/sitemap.xml

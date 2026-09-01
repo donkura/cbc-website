@@ -1,0 +1,9 @@
+# System & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# Large files exceeding GitHub's 100MB limit
+CHLOE B 4K REAL 1080 (1).mp4
