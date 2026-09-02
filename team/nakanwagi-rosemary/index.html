@@ -1,0 +1,147 @@
+<!DOCTYPE html><html lang="en" class="cormorant_garamond_751a2748-module__fsM4bq__variable syne_446b0af1-module__3PLjlW__variable dm_sans_fad2e27a-module__GQ6X1q__variable"><head><script>
+(function() {
+  function getCleanHref(href) {
+    if (!href) return href;
+    if (window.location.protocol === 'file:') {
+      var dirPath = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/'));
+      var rootPath = dirPath;
+      var routes = ['cbc-life-conference-2026', 'youth-leaders-union-2025', 'episodes', 'contact', 'partner', 'team'];
+      for (var i = 0; i < routes.length; i++) {
+        if (rootPath.endsWith('/' + routes[i])) {
+          rootPath = rootPath.substring(0, rootPath.lastIndexOf('/'));
+          break;
+        }
+      }
+      if (href.startsWith('/')) {
+        if (href === '/') return rootPath + '/index.html';
+        if (href.startsWith('/#')) return rootPath + '/index.html' + href.substring(1);
+        var route = href.substring(1);
+        if (route.includes('#')) {
+          var parts = route.split('#');
+          return rootPath + '/' + parts[0] + '.html#' + parts[1];
+        }
+        if (!route.endsWith('.html')) return rootPath + '/' + route + '.html';
+      }
+    }
+    return href;
+  }
+
+  document.addEventListener('click', function(e) {
+    var a = e.target.closest('a');
+    if (!a) return;
+    var href = a.getAttribute('href');
+    if (!href) return;
+
+    if (a.classList.contains('Nav-module__gOObGW__dropdownItem') || 
+        a.classList.contains('Nav-module__gOObGW__mobileSubLink') ||
+        href.indexOf('cbc-life-conference') !== -1) {
+      var targetUrl = getCleanHref(href);
+      if (targetUrl) {
+        e.preventDefault();
+        e.stopPropagation();
+        window.location.href = targetUrl;
+      }
+    }
+  }, true);
+})();
+</script><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" href="/_next/static/media/01e4147cff8141ee-s.p.10ked.7w885.g.woff2" as="font" crossorigin="" type="font/woff2"/><link rel="preload" href="/_next/static/media/0c795a286deabae8-s.p.14tvuu96~wkr0.woff2" as="font" crossorigin="" type="font/woff2"/><link rel="preload" href="/_next/static/media/5c285b27cdda1fe8-s.p.0yo6-5yoeeudq.woff2" as="font" crossorigin="" type="font/woff2"/><link rel="preload" href="/_next/static/media/8bd76523131fa0fc-s.p.0jox806dnq5~c.woff2" as="font" crossorigin="" type="font/woff2"/><link rel="preload" as="image" href="/logo.png"/><link rel="preload" as="image" href="/Rosemary.jpeg"/><link rel="stylesheet" href="/_next/static/chunks/0~9oe77z57n53.css" data-precedence="next"/><link rel="stylesheet" href="/_next/static/chunks/0xsbqy94j~s.e.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/05tsy9pxtuyv0.js"/><script src="/_next/static/chunks/0alvpq3z_c2r_.js" async=""></script><script src="/_next/static/chunks/10~x95jhs6ns3.js" async=""></script><script src="/_next/static/chunks/turbopack-0tfzsps79_evs.js" async=""></script><script src="/_next/static/chunks/01xlw8hd842-c.js" async=""></script><script src="/_next/static/chunks/0d3shmwh5_nmn.js" async=""></script><script src="/_next/static/chunks/0-bi9v3tdq5p2.js" async=""></script><meta name="next-size-adjust" content=""/><meta name="theme-color" content="#C9954C"/>
+    <title>Nakanwagi Rosemary | CBC Team | CBC – Chloe B's Covert</title>
+    <meta name="description" content="Nakanwagi Rosemary contributes to CBC's creative storytelling, community outreach, and episode production across Uganda."/>
+    <meta name="keywords" content="Nakanwagi Rosemary, CBC team, African media outreach, CBC Covert"/>
+    <link rel="author" href="https://cbc.ug"/>
+    <meta name="author" content="Chloe Basiima"/>
+    <meta name="creator" content="Chloe Basiima"/>
+    <meta name="publisher" content="CBC – Chloe B's Covert"/>
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"/>
+    <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"/>
+    <meta name="bingbot" content="index, follow, max-image-preview:large, max-snippet:-1"/>
+    <meta name="category" content="Media &amp; Entertainment"/>
+    <link rel="canonical" href="https://cbc.ug/team/nakanwagi-rosemary"/>
+    
+    <!-- Open Graph Meta -->
+    <meta property="og:title" content="Nakanwagi Rosemary | CBC Team | CBC – Chloe B's Covert"/>
+    <meta property="og:description" content="Nakanwagi Rosemary contributes to CBC's creative storytelling, community outreach, and episode production across Uganda."/>
+    <meta property="og:url" content="https://cbc.ug/team/nakanwagi-rosemary"/>
+    <meta property="og:site_name" content="CBC – Chloe B's Covert"/>
+    <meta property="og:locale" content="en_UG"/>
+    <meta property="og:locale:alternate" content="en_US"/>
+    <meta property="og:locale:alternate" content="en_GB"/>
+    <meta property="og:image" content="https://cbc.ug/Rosemary.jpeg"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+    <meta property="og:image:alt" content="Nakanwagi Rosemary | CBC Team | CBC – Chloe B's Covert"/>
+    <meta property="og:type" content="profile"/>
+    
+    <!-- Twitter Card Meta -->
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:title" content="Nakanwagi Rosemary | CBC Team | CBC – Chloe B's Covert"/>
+    <meta name="twitter:description" content="Nakanwagi Rosemary contributes to CBC's creative storytelling, community outreach, and episode production across Uganda."/>
+    <meta name="twitter:image" content="https://cbc.ug/Rosemary.jpeg"/>
+    <meta name="twitter:image:alt" content="Nakanwagi Rosemary | CBC Team | CBC – Chloe B's Covert"/>
+    <meta name="twitter:creator" content="@chloebasiima"/>
+    <meta name="twitter:site" content="@chloebasiima"/>
+    
+    <link rel="icon" href="/favicon.png"/>
+    <link rel="apple-touch-icon" href="/favicon.png"/>
+    
+    <!-- Geo & Local SEO Tags -->
+    <meta name="geo.region" content="UG-102" />
+    <meta name="geo.placename" content="Kampala, Uganda" />
+    <meta name="geo.position" content="0.3476;32.5825" />
+    <meta name="ICBM" content="0.3476, 32.5825" />
+    <meta name="coverage" content="Pan-African, Uganda, East Africa" />
+    <meta name="rating" content="General" />
+
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Nakanwagi Rosemary",
+    "jobTitle": "Production & Outreach Team",
+    "worksFor": {
+      "@id": "https://cbc.ug/#organization"
+    },
+    "image": "https://cbc.ug/Rosemary.jpeg",
+    "url": "https://cbc.ug/team/nakanwagi-rosemary"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://cbc.ug/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Team",
+      "item": "https://cbc.ug/team"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Nakanwagi Rosemary",
+      "item": "https://cbc.ug/team/nakanwagi-rosemary"
+    }
+  ]
+}
+</script>
+  
+<style id="cbc-reveal-fix">
+  .reveal { opacity: 1 !important; transform: none !important; }
+</style>
+</head><body><div hidden=""><!--$--><!--/$--></div><nav class="Nav-module__gOObGW__nav " role="navigation" aria-label="Main navigation"><div class="Nav-module__gOObGW__navLogo"><a aria-label="CBC Home" href="/"><img alt="CBC – Chloe B&#x27;s Covert" width="120" height="48" decoding="async" data-nimg="1" style="color:transparent;height:48px;width:auto" src="/logo.png"/></a></div><div class="Nav-module__gOObGW__navLinks" role="list"><a class="Nav-module__gOObGW__navLink " role="listitem" href="/">Home</a><a class="Nav-module__gOObGW__navLink " role="listitem" href="/#mission">Mission</a><a class="Nav-module__gOObGW__navLink " role="listitem" href="/#videos">Videos</a><a class="Nav-module__gOObGW__navLink " role="listitem" href="/episodes">Episodes</a><a class="Nav-module__gOObGW__navLink " role="listitem" href="/#gallery">Gallery</a><div class="Nav-module__gOObGW__dropdown" role="listitem"><a class="Nav-module__gOObGW__navLink " href="/#events">Events<!-- --> ▾</a><div class="Nav-module__gOObGW__dropdownMenu"><a class="Nav-module__gOObGW__dropdownItem" href="/cbc-life-conference-2026">CBC LIFE CONFERENCE 2026</a></div></div><div class="Nav-module__gOObGW__dropdown" role="listitem"><a class="Nav-module__gOObGW__navLink " href="/#roadmap">Roadmap<!-- --> ▾</a><div class="Nav-module__gOObGW__dropdownMenu"><a class="Nav-module__gOObGW__dropdownItem" href="/#roadmap">Roadmap Overview</a><a class="Nav-module__gOObGW__dropdownItem" href="/youth-leaders-union-2025">Youth Leaders Union 2025</a></div></div><a class="Nav-module__gOObGW__navLink " role="listitem" href="/team">Team</a><a class="Nav-module__gOObGW__navLink " role="listitem" href="/contact">Contact</a><a class="Nav-module__gOObGW__navLink Nav-module__gOObGW__navCta" href="/partner">Partner With Us</a></div><button class="Nav-module__gOObGW__hamburger " aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu"><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></button></nav><div id="mobile-menu" class="Nav-module__gOObGW__mobileMenu " role="dialog" aria-modal="true" aria-label="Mobile navigation"><a class="Nav-module__gOObGW__mobileLink" href="/">Home</a><a class="Nav-module__gOObGW__mobileLink" href="/#mission">Mission</a><a class="Nav-module__gOObGW__mobileLink" href="/#videos">Videos</a><a class="Nav-module__gOObGW__mobileLink" href="/episodes">Episodes</a><a class="Nav-module__gOObGW__mobileLink" href="/#gallery">Gallery</a><div style="display:flex;flex-direction:column;align-items:center"><span class="Nav-module__gOObGW__mobileLink">Events</span><div class="Nav-module__gOObGW__mobileSubMenu"><a class="Nav-module__gOObGW__mobileSubLink" href="/cbc-life-conference-2026">CBC LIFE CONFERENCE 2026</a></div></div><div style="display:flex;flex-direction:column;align-items:center"><span class="Nav-module__gOObGW__mobileLink">Roadmap</span><div class="Nav-module__gOObGW__mobileSubMenu"><a class="Nav-module__gOObGW__mobileSubLink" href="/#roadmap">Roadmap Overview</a><a class="Nav-module__gOObGW__mobileSubLink" href="/youth-leaders-union-2025">Youth Leaders Union 2025</a></div></div><a class="Nav-module__gOObGW__mobileLink" href="/team">Team</a><a class="Nav-module__gOObGW__mobileLink" href="/contact">Contact</a><a class="Nav-module__gOObGW__mobileLink Nav-module__gOObGW__mobCta" href="/partner">Partner With Us</a></div><div class="TeamMember-module__3oPkkq__pageWrapper"><div class="TeamMember-module__3oPkkq__patternOverlay"></div><main class="TeamMember-module__3oPkkq__container"><div class="TeamMember-module__3oPkkq__layout"><div class="TeamMember-module__3oPkkq__contentCol"><a class="TeamMember-module__3oPkkq__backBtn" href="/team">← Back to Team</a><p class="TeamMember-module__3oPkkq__role">Foundation Secretary</p><h1 class="TeamMember-module__3oPkkq__name">Nakanwagi Rosemary</h1><ul class="TeamMember-module__3oPkkq__bulletList"><li>Responsible for administrative tasks, meeting minutes, and ensuring smooth communication within the team.</li><li>Handles documentation, scheduling, and organizational duties.</li></ul></div><div class="TeamMember-module__3oPkkq__imageCol"><div class="TeamMember-module__3oPkkq__heroImageFrame"><img alt="Nakanwagi Rosemary" decoding="async" data-nimg="fill" class="TeamMember-module__3oPkkq__image" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" src="/Rosemary.jpeg"/></div></div></div></main></div><footer class="Footer-module__S6Hkya__footer" aria-label="Site footer"><div class="Footer-module__S6Hkya__top"><div><div class="Footer-module__S6Hkya__logo"><img alt="CBC – Chloe B&#x27;s Covert" aria-label="CBC logo" loading="lazy" width="160" height="64" decoding="async" data-nimg="1" style="color:transparent;height:44px;width:auto" src="/logo.png"/></div><p class="Footer-module__S6Hkya__tagline">Truth. Transformation. Tribe.<br/>Africa&#x27;s most trusted conversation platform — launching 2026.</p></div><nav aria-label="Footer navigation"><p class="Footer-module__S6Hkya__colTitle">Navigate</p><div class="Footer-module__S6Hkya__linksList"><a href="/#about" class="Footer-module__S6Hkya__link">Founder</a><a href="/#mission" class="Footer-module__S6Hkya__link">Mission</a><a href="/episodes" class="Footer-module__S6Hkya__link">Episodes</a><a href="/#gallery" class="Footer-module__S6Hkya__link">Gallery</a><a href="/#roadmap" class="Footer-module__S6Hkya__link">Roadmap</a><a href="/team" class="Footer-module__S6Hkya__link">Team</a></div></nav><nav aria-label="Footer connect links"><p class="Footer-module__S6Hkya__colTitle">Connect</p><div class="Footer-module__S6Hkya__linksList"><a href="/contact" class="Footer-module__S6Hkya__link">Contact Us</a><a href="/partner" class="Footer-module__S6Hkya__link">Partner With Us</a><a href="#" class="Footer-module__S6Hkya__link">Instagram</a><a href="#" class="Footer-module__S6Hkya__link">YouTube</a><a href="#" class="Footer-module__S6Hkya__link">TikTok</a></div></nav></div><div class="Footer-module__S6Hkya__bottom"><p class="Footer-module__S6Hkya__copy">© 2026 CBC – The Chloe Basiima&#x27;s Covert. All rights reserved.</p><div class="Footer-module__S6Hkya__bottomLinks"><a href="#" class="Footer-module__S6Hkya__link">Privacy Policy</a><a href="#" class="Footer-module__S6Hkya__link">Terms</a><a href="/contact" class="Footer-module__S6Hkya__link">Contact</a></div></div></footer><!--$--><!--/$--><script src="/_next/static/chunks/05tsy9pxtuyv0.js" id="_R_" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,"1:\"$Sreact.fragment\"\n2:I[39756,[\"/_next/static/chunks/01xlw8hd842-c.js\",\"/_next/static/chunks/0d3shmwh5_nmn.js\"],\"default\"]\n3:I[37457,[\"/_next/static/chunks/01xlw8hd842-c.js\",\"/_next/static/chunks/0d3shmwh5_nmn.js\"],\"default\"]\n5:I[97367,[\"/_next/static/chunks/01xlw8hd842-c.js\",\"/_next/static/chunks/0d3shmwh5_nmn.js\"],\"OutletBoundary\"]\n6:\"$Sreact.suspense\"\n9:I[97367,[\"/_next/static/chunks/01xlw8hd842-c.js\",\"/_next/static/chunks/0d3shmwh5_nmn.js\"],\"ViewportBoundary\"]\nb:I[97367,[\"/_next/static/chunks/01xlw8hd842-c.js\",\"/_next/static/chunks/0d3shmwh5_nmn.js\"],\"MetadataBoundary\"]\nd:I[68027,[\"/_next/static/chunks/01xlw8hd842-c.js\",\"/_next/static/chunks/0d3shmwh5_nmn.js\"],\"default\",1]\n:HL[\"/_next/static/chunks/0~9oe77z57n53.css\",\"style\"]\n:HL[\"/_next/static/media/01e4147cff8141ee-s.p.10ked.7w885.g.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/0c795a286deabae8-s.p.14tvuu96~wkr0.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/5c285b27cdda1fe8-s.p.0yo6-5yoeeudq.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/8bd76523131fa0fc-s.p.0jox806dnq5~c.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/chunks/0xsbqy94j~s.e.css\",\"style\"]\n"])</script><script>self.__next_f.push([1,"0:{\"P\":null,\"c\":[\"\",\"team\",\"nakanwagi-rosemary\"],\"q\":\"\",\"i\":false,\"f\":[[[\"\",{\"children\":[\"team\",{\"children\":[[\"id\",\"nakanwagi-rosemary\",\"d\",null],{\"children\":[\"__PAGE__\",{}]}]}]},\"$undefined\",\"$undefined\",16],[[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/0~9oe77z57n53.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-0\",{\"src\":\"/_next/static/chunks/01xlw8hd842-c.js\",\"async\":true,\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-1\",{\"src\":\"/_next/static/chunks/0d3shmwh5_nmn.js\",\"async\":true,\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"className\":\"cormorant_garamond_751a2748-module__fsM4bq__variable syne_446b0af1-module__3PLjlW__variable dm_sans_fad2e27a-module__GQ6X1q__variable\",\"suppressHydrationWarning\":true,\"children\":[\"$\",\"body\",null,{\"suppressHydrationWarning\":true,\"children\":[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L3\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]}]]}],{\"children\":[[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L3\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L3\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[[\"$\",\"$1\",\"c\",{\"children\":[\"$L4\",[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/0xsbqy94j~s.e.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-0\",{\"src\":\"/_next/static/chunks/0-bi9v3tdq5p2.js\",\"async\":true,\"nonce\":\"$undefined\"}]],[\"$\",\"$L5\",null,{\"children\":[\"$\",\"$6\",null,{\"name\":\"Next.MetadataOutlet\",\"children\":\"$@7\"}]}]]}],{},null,false,null]},null,false,\"$@8\"]},null,false,\"$@8\"]},null,false,null],[\"$\",\"$1\",\"h\",{\"children\":[null,[\"$\",\"$L9\",null,{\"children\":\"$La\"}],[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$Lb\",null,{\"children\":[\"$\",\"$6\",null,{\"name\":\"Next.Metadata\",\"children\":\"$Lc\"}]}]}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"}]]}],false]],\"m\":\"$undefined\",\"G\":[\"$d\",[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/0~9oe77z57n53.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]]],\"S\":true,\"h\":null,\"s\":\"$undefined\",\"l\":\"$undefined\",\"p\":\"$undefined\",\"d\":\"$undefined\",\"b\":\"nKJIZPVj9jwfDcNcy5s1I\"}\n"])</script><script>self.__next_f.push([1,"e:[]\n8:\"$We\"\n"])</script><script>self.__next_f.push([1,"f:I[84834,[\"/_next/static/chunks/01xlw8hd842-c.js\",\"/_next/static/chunks/0d3shmwh5_nmn.js\",\"/_next/static/chunks/0-bi9v3tdq5p2.js\"],\"default\"]\n10:I[22016,[\"/_next/static/chunks/01xlw8hd842-c.js\",\"/_next/static/chunks/0d3shmwh5_nmn.js\",\"/_next/static/chunks/0-bi9v3tdq5p2.js\"],\"\"]\n11:I[5500,[\"/_next/static/chunks/01xlw8hd842-c.js\",\"/_next/static/chunks/0d3shmwh5_nmn.js\",\"/_next/static/chunks/0-bi9v3tdq5p2.js\"],\"Image\"]\n"])</script><script>self.__next_f.push([1,"4:[[\"$\",\"$Lf\",null,{}],[\"$\",\"div\",null,{\"className\":\"TeamMember-module__3oPkkq__pageWrapper\",\"children\":[[\"$\",\"div\",null,{\"className\":\"TeamMember-module__3oPkkq__patternOverlay\"}],[\"$\",\"main\",null,{\"className\":\"TeamMember-module__3oPkkq__container\",\"children\":[\"$\",\"div\",null,{\"className\":\"TeamMember-module__3oPkkq__layout\",\"children\":[[\"$\",\"div\",null,{\"className\":\"TeamMember-module__3oPkkq__contentCol\",\"children\":[[\"$\",\"$L10\",null,{\"href\":\"/team\",\"className\":\"TeamMember-module__3oPkkq__backBtn\",\"children\":\"← Back to Team\"}],[\"$\",\"p\",null,{\"className\":\"TeamMember-module__3oPkkq__role\",\"children\":\"Foundation Secretary\"}],[\"$\",\"h1\",null,{\"className\":\"TeamMember-module__3oPkkq__name\",\"children\":\"Nakanwagi Rosemary\"}],\"$undefined\",[\"$\",\"ul\",null,{\"className\":\"TeamMember-module__3oPkkq__bulletList\",\"children\":[[\"$\",\"li\",\"0\",{\"children\":\"Responsible for administrative tasks, meeting minutes, and ensuring smooth communication within the team.\"}],[\"$\",\"li\",\"1\",{\"children\":\"Handles documentation, scheduling, and organizational duties.\"}]]}]]}],[\"$\",\"div\",null,{\"className\":\"TeamMember-module__3oPkkq__imageCol\",\"children\":[\"$\",\"div\",null,{\"className\":\"TeamMember-module__3oPkkq__heroImageFrame\",\"children\":[\"$\",\"$L11\",null,{\"src\":\"/Rosemary.jpeg\",\"alt\":\"Nakanwagi Rosemary\",\"fill\":true,\"priority\":true,\"sizes\":\"(max-width: 1024px) 100vw, 50vw\",\"className\":\"TeamMember-module__3oPkkq__image\"}]}]}]]}]}]]}],[\"$\",\"footer\",null,{\"className\":\"Footer-module__S6Hkya__footer\",\"aria-label\":\"Site footer\",\"children\":[[\"$\",\"div\",null,{\"className\":\"Footer-module__S6Hkya__top\",\"children\":[[\"$\",\"div\",null,{\"children\":[[\"$\",\"div\",null,{\"className\":\"Footer-module__S6Hkya__logo\",\"children\":[\"$\",\"$L11\",null,{\"src\":\"/logo.png\",\"alt\":\"CBC – Chloe B's Covert\",\"width\":160,\"height\":64,\"style\":{\"height\":\"44px\",\"width\":\"auto\"},\"aria-label\":\"CBC logo\"}]}],[\"$\",\"p\",null,{\"className\":\"Footer-module__S6Hkya__tagline\",\"children\":[\"Truth. Transformation. Tribe.\",[\"$\",\"br\",null,{}],\"Africa's most trusted conversation platform — launching 2026.\"]}]]}],[\"$\",\"nav\",null,{\"aria-label\":\"Footer navigation\",\"children\":[[\"$\",\"p\",null,{\"className\":\"Footer-module__S6Hkya__colTitle\",\"children\":\"Navigate\"}],[\"$\",\"div\",null,{\"className\":\"Footer-module__S6Hkya__linksList\",\"children\":[[\"$\",\"a\",\"/#aboutFounder\",{\"href\":\"/#about\",\"className\":\"Footer-module__S6Hkya__link\",\"children\":\"Founder\"}],[\"$\",\"a\",\"/#missionMission\",{\"href\":\"/#mission\",\"className\":\"Footer-module__S6Hkya__link\",\"children\":\"Mission\"}],[\"$\",\"a\",\"/episodesEpisodes\",{\"href\":\"/episodes\",\"className\":\"Footer-module__S6Hkya__link\",\"children\":\"Episodes\"}],[\"$\",\"a\",\"/#galleryGallery\",{\"href\":\"/#gallery\",\"className\":\"Footer-module__S6Hkya__link\",\"children\":\"Gallery\"}],[\"$\",\"a\",\"/#roadmapRoadmap\",{\"href\":\"/#roadmap\",\"className\":\"Footer-module__S6Hkya__link\",\"children\":\"Roadmap\"}],[\"$\",\"a\",\"/teamTeam\",{\"href\":\"/team\",\"className\":\"Footer-module__S6Hkya__link\",\"children\":\"Team\"}]]}]]}],[\"$\",\"nav\",null,{\"aria-label\":\"Footer connect links\",\"children\":[[\"$\",\"p\",null,{\"className\":\"Footer-module__S6Hkya__colTitle\",\"children\":\"Connect\"}],[\"$\",\"div\",null,{\"className\":\"Footer-module__S6Hkya__linksList\",\"children\":[[\"$\",\"a\",\"/contactContact Us\",{\"href\":\"/contact\",\"className\":\"Footer-module__S6Hkya__link\",\"children\":\"Contact Us\"}],[\"$\",\"a\",\"/partnerPartner With Us\",{\"href\":\"/partner\",\"className\":\"Footer-module__S6Hkya__link\",\"children\":\"Partner With Us\"}],[\"$\",\"a\",\"#Instagram\",{\"href\":\"#\",\"className\":\"Footer-module__S6Hkya__link\",\"children\":\"Instagram\"}],[\"$\",\"a\",\"#YouTube\",{\"href\":\"#\",\"className\":\"Footer-module__S6Hkya__link\",\"children\":\"YouTube\"}],[\"$\",\"a\",\"#TikTok\",{\"href\":\"#\",\"className\":\"Footer-module__S6Hkya__link\",\"children\":\"TikTok\"}]]}]]}]]}],[\"$\",\"div\",null,{\"className\":\"Footer-module__S6Hkya__bottom\",\"children\":[[\"$\",\"p\",null,{\"className\":\"Footer-module__S6Hkya__copy\",\"children\":\"© 2026 CBC – The Chloe Basiima's Covert. All rights reserved.\"}],[\"$\",\"div\",null,{\"className\":\"Footer-module__S6Hkya__bottomLinks\",\"children\":[[\"$\",\"a\",null,{\"href\":\"#\",\"className\":\"Footer-module__S6Hkya__link\",\"children\":\"Privacy Policy\"}],[\"$\",\"a\",null,{\"href\":\"#\",\"className\":\"Footer-module__S6Hkya__link\",\"children\":\"Terms\"}],[\"$\",\"a\",null,{\"href\":\"/contact\",\"className\":\"Footer-module__S6Hkya__link\",\"children\":\"Contact\"}]]}]]}]]}]]\n"])</script><script>self.__next_f.push([1,"a:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",\"1\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}],[\"$\",\"meta\",\"2\",{\"name\":\"theme-color\",\"content\":\"#C9954C\"}]]\n"])</script><script>self.__next_f.push([1,"12:I[27201,[\"/_next/static/chunks/01xlw8hd842-c.js\",\"/_next/static/chunks/0d3shmwh5_nmn.js\"],\"IconMark\"]\n7:null\n"])</script><script>self.__next_f.push([1,"c:[[\"$\",\"title\",\"0\",{\"children\":\"CBC – Chloe B's Covert | Africa's Conversation Platform\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"CBC is Africa's most anticipated conversation platform — creating open, safe, and dynamic spaces for honest dialogue, real stories, and community transformation. Launching 2026 from Kampala, Uganda.\"}],[\"$\",\"link\",\"2\",{\"rel\":\"author\",\"href\":\"https://cbc.ug\"}],[\"$\",\"meta\",\"3\",{\"name\":\"author\",\"content\":\"Chloe Basiima\"}],[\"$\",\"meta\",\"4\",{\"name\":\"keywords\",\"content\":\"CBC,Chloe Basiima,Chloe Busiime,Chloe B,Chloe B's Covert,African podcast,conversation platform,Uganda media,African youth,mental health Africa,storytelling,community dialogue,Kampala,CBC conversations,CBC Life Conference\"}],[\"$\",\"meta\",\"5\",{\"name\":\"creator\",\"content\":\"Chloe Basiima\"}],[\"$\",\"meta\",\"6\",{\"name\":\"publisher\",\"content\":\"CBC – Chloe B's Covert\"}],[\"$\",\"meta\",\"7\",{\"name\":\"robots\",\"content\":\"index, follow\"}],[\"$\",\"meta\",\"8\",{\"name\":\"googlebot\",\"content\":\"index, follow, max-image-preview:large, max-snippet:-1\"}],[\"$\",\"meta\",\"9\",{\"name\":\"category\",\"content\":\"Media \u0026 Entertainment\"}],[\"$\",\"link\",\"10\",{\"rel\":\"canonical\",\"href\":\"https://cbc.ug\"}],[\"$\",\"meta\",\"11\",{\"property\":\"og:title\",\"content\":\"CBC – Chloe B's Covert | Africa's Conversation Platform\"}],[\"$\",\"meta\",\"12\",{\"property\":\"og:description\",\"content\":\"CBC is Africa's most anticipated conversation platform — creating open, safe spaces for honest dialogue and community transformation.\"}],[\"$\",\"meta\",\"13\",{\"property\":\"og:url\",\"content\":\"https://cbc.ug\"}],[\"$\",\"meta\",\"14\",{\"property\":\"og:site_name\",\"content\":\"CBC – Chloe B's Covert\"}],[\"$\",\"meta\",\"15\",{\"property\":\"og:locale\",\"content\":\"en_UG\"}],[\"$\",\"meta\",\"16\",{\"property\":\"og:image\",\"content\":\"https://cbc.ug/og-image.jpg\"}],[\"$\",\"meta\",\"17\",{\"property\":\"og:image:width\",\"content\":\"1200\"}],[\"$\",\"meta\",\"18\",{\"property\":\"og:image:height\",\"content\":\"630\"}],[\"$\",\"meta\",\"19\",{\"property\":\"og:image:alt\",\"content\":\"CBC – Chloe B's Covert\"}],[\"$\",\"meta\",\"20\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"$\",\"meta\",\"21\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",\"22\",{\"name\":\"twitter:title\",\"content\":\"CBC – Chloe B's Covert | Africa's Conversation Platform\"}],[\"$\",\"meta\",\"23\",{\"name\":\"twitter:description\",\"content\":\"Africa's most anticipated conversation platform. Launching 2026.\"}],[\"$\",\"meta\",\"24\",{\"name\":\"twitter:image\",\"content\":\"https://cbc.ug/og-image.jpg\"}],[\"$\",\"link\",\"25\",{\"rel\":\"icon\",\"href\":\"/favicon.png\"}],[\"$\",\"link\",\"26\",{\"rel\":\"apple-touch-icon\",\"href\":\"/favicon.png\"}],[\"$\",\"$L12\",\"27\",{}]]\n"])</script>
+<style>
+  .reveal, [class*="reveal"] { opacity: 1 !important; transform: none !important; visibility: visible !important; }
+</style>
+</body></html>

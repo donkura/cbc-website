@@ -1,9 +1,27 @@
+DirectoryIndex index.html index.htm
+
+# Prevent directory indexing/browsing
+Options -Indexes
+
 <IfModule mod_rewrite.c>
   RewriteEngine On
+  RewriteBase /
+
   # Ensure LiteSpeed and proxy caches do not store HTML responses
-  RewriteCond %{REQUEST_URI} \.(html|htm)$ [NC,OR]
+  RewriteCond %{REQUEST_URI} .(html|htm)$ [NC,OR]
   RewriteCond %{REQUEST_URI} ^/$ [NC]
   RewriteRule .* - [E=Cache-Control:no-cache]
+
+  # If a directory is requested with a trailing slash and index.html exists, serve it
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteCond %{REQUEST_FILENAME}/index.html -f
+  RewriteRule [^/]$ %{REQUEST_URI}/ [R=301,L]
+
+  # If an .html file exists for the requested path, serve it
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME}.html -f
+  RewriteRule ^(.*)$ $1.html [L]
 </IfModule>
 
 <IfModule mod_headers.c>
