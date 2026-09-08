@@ -1,7 +1,11 @@
 User-agent: *
 Allow: /
 
-# Disallow build manifests and text files not needed for crawling
+# Allow Next.js static assets for full rendering
+Allow: /_next/static/
+
+# Disallow internal directories that return 403 Forbidden on directory browsing
+Disallow: /_next/
 Disallow: /api/
 Disallow: /*.json$
 Disallow: /*.txt$
@@ -10,17 +14,23 @@ Disallow: /_not-found
 # Allow all major search engine crawlers explicitly
 User-agent: Googlebot
 Allow: /
+Allow: /_next/static/
 Allow: /*.jpg$
 Allow: /*.jpeg$
 Allow: /*.png$
 Allow: /*.webp$
 Allow: /*.mp4$
+Disallow: /_next/
+Disallow: /api/
 
 User-agent: Googlebot-Image
 Allow: /
 
 User-agent: Bingbot
 Allow: /
+Allow: /_next/static/
+Disallow: /_next/
+Disallow: /api/
 
 User-agent: Slurp
 Allow: /

@@ -5,40 +5,40 @@
   <!-- Homepage -->
   <url>
     <loc>https://cbc.ug/</loc>
-    <lastmod>2026-09-01T12:00:00+00:00</lastmod>
+    <lastmod>2026-09-07T18:30:00+03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://cbc.ug/og-image.jpg</image:loc>
-      <image:title>CBC – Chloe B's Covert | Africa's Premier Conversation Platform</image:title>
-      <image:caption>Chloe Basiima hosting CBC Conversations in Kampala, Uganda</image:caption>
+      <image:title>CBC – Chloe B's Covert (Chloe B Convert) | Africa's Premier Conversation Platform</image:title>
+      <image:caption>Chloe Basiima (Chloe B) hosting CBC Conversations in Kampala, Uganda</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://cbc.ug/Chloe.jpeg</image:loc>
-      <image:title>Chloe Basiima — Founder &amp; Host of CBC</image:title>
+      <image:title>Chloe Basiima — Founder &amp; Host of CBC (Chloe B Convert / Chloe B Covert)</image:title>
     </image:image>
     <image:image>
       <image:loc>https://cbc.ug/CBC-26.jpg</image:loc>
-      <image:title>CBC Studio Conversations</image:title>
+      <image:title>CBC Studio Conversations — Chloe B's Covert</image:title>
     </image:image>
   </url>
 
   <!-- Episodes Page -->
   <url>
-    <loc>https://cbc.ug/episodes</loc>
-    <lastmod>2026-09-01T12:00:00+00:00</lastmod>
+    <loc>https://cbc.ug/episodes/</loc>
+    <lastmod>2026-09-07T18:30:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://cbc.ug/og-image.jpg</image:loc>
-      <image:title>CBC Featured Episodes and Video Podcasts</image:title>
+      <image:title>CBC Featured Episodes and Video Podcasts — Chloe B's Covert</image:title>
     </image:image>
   </url>
 
   <!-- CBC Life Conference 2026 -->
   <url>
-    <loc>https://cbc.ug/cbc-life-conference-2026</loc>
-    <lastmod>2026-09-01T12:00:00+00:00</lastmod>
+    <loc>https://cbc.ug/cbc-life-conference-2026/</loc>
+    <lastmod>2026-09-07T18:30:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -50,41 +50,41 @@
 
   <!-- Youth Leaders Union 2025 -->
   <url>
-    <loc>https://cbc.ug/youth-leaders-union-2025</loc>
-    <lastmod>2026-09-01T12:00:00+00:00</lastmod>
+    <loc>https://cbc.ug/youth-leaders-union-2025/</loc>
+    <lastmod>2026-09-07T18:30:00+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://cbc.ug/og-image.jpg</image:loc>
-      <image:title>CBC Youth Leaders Union Mentorship Initiative</image:title>
+      <image:title>CBC Youth Leaders Union Mentorship Initiative — Chloe B's Covert</image:title>
     </image:image>
   </url>
 
   <!-- Team Directory -->
   <url>
-    <loc>https://cbc.ug/team</loc>
-    <lastmod>2026-09-01T12:00:00+00:00</lastmod>
+    <loc>https://cbc.ug/team/</loc>
+    <lastmod>2026-09-07T18:30:00+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Chloe Basiima Profile -->
   <url>
-    <loc>https://cbc.ug/team/chloe-basiima</loc>
-    <lastmod>2026-09-01T12:00:00+00:00</lastmod>
+    <loc>https://cbc.ug/team/chloe-basiima/</loc>
+    <lastmod>2026-09-07T18:30:00+03:00</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
     <image:image>
       <image:loc>https://cbc.ug/Chloe.jpeg</image:loc>
-      <image:title>Chloe Basiima — Founder &amp; Host</image:title>
-      <image:caption>Chloe Basiima, Founder &amp; Host of CBC – Chloe B's Covert</image:caption>
+      <image:title>Chloe Basiima (Chloe B Convert / Chloe B Covert) — Founder &amp; Host</image:title>
+      <image:caption>Chloe Basiima, Founder &amp; Host of CBC – Chloe B's Covert (Chloe B Convert)</image:caption>
     </image:image>
   </url>
 
   <!-- Muyuga Edwin Profile -->
   <url>
-    <loc>https://cbc.ug/team/muyuga-edwin</loc>
-    <lastmod>2026-09-01T12:00:00+00:00</lastmod>
+    <loc>https://cbc.ug/team/muyuga-edwin/</loc>
+    <lastmod>2026-09-07T18:30:00+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -95,8 +95,8 @@
 
   <!-- Nakanwagi Rosemary Profile -->
   <url>
-    <loc>https://cbc.ug/team/nakanwagi-rosemary</loc>
-    <lastmod>2026-09-01T12:00:00+00:00</lastmod>
+    <loc>https://cbc.ug/team/nakanwagi-rosemary/</loc>
+    <lastmod>2026-09-07T18:30:00+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -107,8 +107,8 @@
 
   <!-- Namirembe Sandra Profile -->
   <url>
-    <loc>https://cbc.ug/team/namirembe-sandra</loc>
-    <lastmod>2026-09-01T12:00:00+00:00</lastmod>
+    <loc>https://cbc.ug/team/namirembe-sandra/</loc>
+    <lastmod>2026-09-07T18:30:00+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -119,8 +119,8 @@
 
   <!-- Uwimbabazi Gloria Profile -->
   <url>
-    <loc>https://cbc.ug/team/uwimbabazi-gloria</loc>
-    <lastmod>2026-09-01T12:00:00+00:00</lastmod>
+    <loc>https://cbc.ug/team/uwimbabazi-gloria/</loc>
+    <lastmod>2026-09-07T18:30:00+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -131,16 +131,16 @@
 
   <!-- Partner With Us -->
   <url>
-    <loc>https://cbc.ug/partner</loc>
-    <lastmod>2026-09-01T12:00:00+00:00</lastmod>
+    <loc>https://cbc.ug/partner/</loc>
+    <lastmod>2026-09-07T18:30:00+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Contact Us -->
   <url>
-    <loc>https://cbc.ug/contact</loc>
-    <lastmod>2026-09-01T12:00:00+00:00</lastmod>
+    <loc>https://cbc.ug/contact/</loc>
+    <lastmod>2026-09-07T18:30:00+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
